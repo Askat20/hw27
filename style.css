@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+button {
+  cursor: pointer;
+}
+body {
+  background-color: rgb(53, 81, 184);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#big-container {
+  background-color: white;
+  margin: 35px;
+  width: 700px;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title {
+  color: blue;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+#input-container {
+  margin-top: 30px;
+}
+
+#input {
+  border: 2px solid blue;
+  border-radius: 5px;
+  width: 400px;
+  height: 40px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+#input::placeholder {
+  font-size: 15px;
+  padding-left: 1px;
+}
+#button {
+  border: none;
+  width: 70px;
+  height: 42px;
+  border-radius: 20px;
+  background-color: rgb(216, 46, 74);
+  color: white;
+  font-size: 18px;
+}
+
+li {
+  background-color: rgb(53, 81, 184);
+  margin-top: 25px;
+  height: 50px;
+  width: 600px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+li::marker {
+  content: " ";
+}
+#form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.button1 {
+  border: none;
+  background-color: coral;
+  color: white;
+  width: 100px;
+  border-radius: 15px;
+  font-size: 15px;
+}
+.checkbox {
+  zoom: 1.7;
+}
+.delete-container {
+  width: 155px;
+  display: flex;
+  gap: 20px;
+}
+
+#id1 {
+  display: none;
+  background-color: white;
+  z-index: 100;
+  border-radius: 15px;
+  border: 2px solid blue;
+  padding: 15px;
+  position: fixed;
+  top: 40%;
+  bottom: 35%;
+  left: 35%;
+  right: 35%;
+  width: 350px;
+}
+
+#id1 > h3 {
+  font-size: 20px;
+}
+#da-or-no {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#yes {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  width: 110px;
+  height: 30px;
+  font-size: 15px;
+}
+#no {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  width: 110px;
+  height: 30px;
+  font-size: 15px;
+}
